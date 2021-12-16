@@ -75,6 +75,17 @@
     height: fit-content;
 
   }
+  .about-img{
+    position: relative;
+
+    >img{
+      position: absolute;
+      width: fit-content;
+      height: 100vh;
+      object-fit: cover;
+    }
+
+  }
 
   .about-sun{
     flex-direction: column;

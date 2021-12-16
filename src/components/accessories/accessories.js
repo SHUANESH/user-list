@@ -1,19 +1,28 @@
+import blue1 from "../../img/blue1.jpeg";
+import blue2 from "../../img/blue2.jpg";
+import blue3 from "../../img/blue3.jpeg";
+import blue5 from "../../img/blue5.jpeg";
+import blue4 from "../../img/blue4.jpeg";
+
+
+
+
 
 export const aboutInfo = [
     {
       title: "Lorem ipsum",
       paragraph: "adipisicing elit. Voluptas rerum iure cumque",
-      img: `https://images.pexels.com/photos/256450/pexels-photo-256450.jpeg?auto=compress&cs=tinysrgb&dpr=2`,
+      img: blue3,
     },
     {
       title: "Lorem ipsum",
       paragraph: "adipisicing elit. Voluptas rerum iure cumque",
-      img: `https://images.pexels.com/photos/1809340/pexels-photo-1809340.jpeg?auto=compress&cs=tinysrgb&dpr=2`,
+      img: blue4,
     },
     {
       title: "Lorem ipsum",
       paragraph: "adipisicing elit. Voluptas rerum iure cumque",
-      img: `https://images.pexels.com/photos/904616/pexels-photo-904616.jpeg?auto=compress&cs=tinysrgb&dpr=1`,
+      img: blue5,
     },
   ];
 

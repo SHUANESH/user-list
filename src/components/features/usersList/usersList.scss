@@ -1,8 +1,8 @@
 @import "../../globalScss//globalScss.scss";
 
 .usersList-root {
-  width: 27vw;
-  height: 50vh;
+  width: fit-content;
+  height: fit-content;
   margin: 5px;
   display: flex;
   flex-direction: column;
@@ -11,21 +11,20 @@
   box-shadow: -3px 3px 5px -1px rgba(0, 0, 0, 0.75);
   padding: 5px;
   > img {
-    width: 80%;
-    height: 60%;
+    width: fit-content;
+    height: fit-content;
   }
 
   > .single-link {
     text-decoration: none;
-    color: black;
-    background-color: rgb(91, 215, 235);
+    color: white;
+    background-color: $mainColor;
     width: 80%;
     padding: 15px;
     border-radius: 5px;
     transition: all 0.4s ease-in;
     &:hover {
-      background-color: darkcyan;
-      opacity: 0.8;
+      background-color: $honerMainColor;
       color: white;
     }
   }
@@ -42,11 +41,11 @@
 @media only screen and (max-width:640px) {
    
 .usersList-root {
-  width: 30vw;
-  height: 35vh;
+    width:fit-content;
+    height: fit-content;
   > img {
-    width: 50%;
-    height: 30%;
+    width:fit-content;
+    height: fit-content;
   }
 
   > .single-link {
@@ -65,8 +64,8 @@
 @media only screen and (min-width:1000px) {
    
   .usersList-root {
-    width:30vw;
-    height: 60vh;
+    width:fit-content;
+    height: fit-content;
     margin-top:25px;
     margin: 10px;
     > img {

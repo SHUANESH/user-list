@@ -1,9 +1,38 @@
-@import '../../globalScss//globalScss.scss';
+@import "../../globalScss//globalScss.scss";
 
-.home-root{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    flex-wrap: wrap;
+.home-root {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.home-images {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 10px;
+  padding: 10px;
+}
 
+.home-button {
+
+  > button {
+    width: 20vw;
+    border: none;
+    color: white;
+    background-color: $mainColor;
+    padding: 10px;
+    margin: 30px;
+    transition: all 0.2s ease-in;
+    border-radius: 5px;
+
+
+  }
+  :hover{
+    background-color: $honerMainColor;
+    color: white;
+    cursor: pointer;
+
+  }
 }

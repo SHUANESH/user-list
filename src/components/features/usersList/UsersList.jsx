@@ -13,7 +13,7 @@ const UsersList = ({ nameUser, statusUser, idUser, users, gender }) => {
       className="usersList-root"
     >
       <img src={genderIcon} alt="" />
-      <h2>{nameUser}</h2>
+      <h2>{nameUser.slice(0,15)}</h2>
       <span className={userStatus}>{statusUser}</span>
       <Link className="single-link" to={`/single-user/${idUser}`}>click for more...</Link>
     </div>
